@@ -1,0 +1,10 @@
+<h1>Header</h1>
+<a routerLink="/" routerLinkActive="active">Home</a>
+<a routerLink="/cart" routerLinkActive="active">Cart</a>
+<a routerLink="/" routerLinkActive="pomoika">Home</a>
+<ul>
+    <li *ngFor="let i of routes">
+        {{i.path}}
+    </li>
+</ul>
+<router-outlet></router-outlet>
